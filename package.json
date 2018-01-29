@@ -5,6 +5,7 @@
   "author": "charlotte.jewer@hotmail.co.uk",
   "private": true,
   "scripts": {
+    "deploy": "push-dir --dir=dist --branch=master --cleanup",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
