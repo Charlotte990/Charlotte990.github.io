@@ -12,6 +12,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/font-awesome": "^1.0.3",
     "nuxt": "^1.0.0",
     "push-dir": "^0.4.1",
     "vuetify": "^0.17.4"
