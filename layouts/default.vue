@@ -13,7 +13,9 @@
       >
         <v-icon medium>fa-instagram</v-icon>
       </v-btn>
-      <v-toolbar-title class="white--text ml-0">WELCOME</v-toolbar-title>
+      <v-toolbar-title class="white--text ml-0">
+        <v-btn flat color="white" href="/" target='_self'>HOME</v-btn>
+      </v-toolbar-title>
       <v-btn 
       icon
       href='http://github.com'
@@ -24,7 +26,7 @@
       <v-spacer></v-spacer>
     </v-toolbar>
     <v-content>
-      <v-container>
+      <v-container ma-2 fluid>
         <nuxt />
       </v-container>
     </v-content>
