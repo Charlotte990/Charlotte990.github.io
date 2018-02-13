@@ -33,6 +33,8 @@
     </v-toolbar>
     <v-navigation-drawer
       temporary
+      app
+      clipped
       right
       fixed
       v-model="drawer"
@@ -84,6 +86,7 @@
           { id: 2, icon: 'bubble_chart', title: 'Resources', to: '/resources' }
         ],
         rightDrawer: true,
+        clipped: true
       }
     }
   }
