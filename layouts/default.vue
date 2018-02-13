@@ -5,31 +5,18 @@
       app 
       color="cyan accent-5"
     >
-    <v-spacer></v-spacer>
-    <v-btn
-      icon
-      href='http://www.instagram.com'
-      target='_blank'
-    >
-      <v-icon medium>fa-instagram</v-icon>
-    </v-btn>
-    <v-toolbar-title class="white--text ml-0">
-      <v-btn flat color="white" href="/" target='_self'>HOME</v-btn>
-    </v-toolbar-title>
-      <v-btn 
-        icon
-        href='http://github.com'
-        target='_blank'
-      >
-        <v-icon medium>fa-github</v-icon>
-      </v-btn>
-      <v-spacer></v-spacer>
-      <v-btn
-        icon
-        @click.stop="drawer = !drawer"
-      >
-        <v-icon>menu</v-icon>
-      </v-btn>
+      <img src="/PLZWORKTINYICONBIT.png" alt="LOGO"/>
+        <v-spacer></v-spacer>
+      <v-toolbar-title class="white--text ml-0 mx-auto text-xs-center">
+        <v-btn flat color="white" href="/" target='_self'>HOME</v-btn>
+      </v-toolbar-title>
+        <v-btn
+          icon
+          small
+          @click.stop="drawer = !drawer"
+        >
+          <v-icon>menu</v-icon>
+        </v-btn>
     </v-toolbar>
     <v-navigation-drawer
       temporary
@@ -102,5 +89,10 @@
 }
 .list__tile--active .list__tile__action:first-of-type .icon {
   color: #e5ecee;
+}
+.group {
+  display: flex;
+  flex: none;
+  justify-content: space-around;
 }
 </style>

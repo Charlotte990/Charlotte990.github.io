@@ -16,7 +16,7 @@
         <v-card color="cyan accent-5">
           <v-card-title style="text-align: center;" class="headline">{{section.name}}</v-card-title>
           <v-card-text>
-            <p>Please give me some content. So that I am not boring. Ta very much.</p>
+            <p>{{section.description}}</p>
             <a :href='section.link' target='_self'>
               <img 
               :src='section.img'
@@ -33,9 +33,9 @@
 export default {
   data: () => ({
       sections: [
-        {id: 1, name: 'I am Title 1', img: 'http://thecatapi.com/api/images/get?format=src&type=gif', link: '/portfolio', button: 'FUN'},
-        {id: 2, name: 'I am Title 2', img: 'v.png', link: '/resources', button: 'WHO KNOWS'},
-        {id: 3, name: 'I am Title 3', img: 'http://thecatapi.com/api/images/get?format=src&type=gif', link: '/resources', button: 'HELLO.'}
+        {id: 1, name: 'Portfolio', img: 'http://thecatapi.com/api/images/get?format=src&type=gif', description: "Lalalalalla", link: '/portfolio', button: 'FUN'},
+        {id: 2, name: 'Resources', img: 'v.png', description: "Nanananana", link: '/resources', button: 'WHO KNOWS'},
+        {id: 3, name: 'Also Resources', img: 'http://thecatapi.com/api/images/get?format=src&type=gif', description: "nananananamamamam", link: '/resources', button: 'HELLO.'}
       ]
   }),
   methods: {

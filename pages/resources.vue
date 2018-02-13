@@ -1,10 +1,14 @@
 <template>
   <v-container>
-    <div
-    class="newPurple text-md-center display-2"
-    >
-    LANGUAGES
-    </div>
+    <v-layout row wrap>
+      <v-flex xs12 align-center text-md-center>
+        <img src="/colorlogotransmall.png" alt="Vuetify.js" class="mb-5">
+        <h2 class="newPurple">
+          LANGUAGES
+        </h2>
+      </v-flex>
+    </v-layout>
+    <v-layout>
       <v-tabs fixed icons centered>
         <v-tabs-bar grow dark class="newPurple">
           <v-tabs-slider color="yellow accent-5"></v-tabs-slider>
@@ -42,7 +46,8 @@
           </v-tabs-content>
         </v-tabs-items>
       </v-tabs>
-      </v-container>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
