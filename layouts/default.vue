@@ -2,8 +2,8 @@
   <v-app dark>
     <v-toolbar
       fixed 
-      app 
-      color="cyan accent-5"
+      app
+      color="primary"
     >
       <img src="/PLZWORKTINYICONBIT.png" alt="LOGO"/>
         <v-spacer></v-spacer>
@@ -30,7 +30,7 @@
         <v-list-tile 
         @click.native="drawer = !drawer">
           <v-list-tile-action>
-            <v-icon light>chevron_right</v-icon>
+            <v-icon color="white" light>chevron_right</v-icon>
           </v-list-tile-action>
           <v-list-tile-title>MENU</v-list-tile-title>
         </v-list-tile>
@@ -56,7 +56,7 @@
     <v-footer 
     fixed
     app
-    color="cyan accent-5"
+    color="primary"
     >
       <span>&copy; 2017</span>
     </v-footer>
@@ -81,7 +81,7 @@
 
 <style>
 .theme--dark .navigation-drawer {
-  background-color: #004356;
+  background-color: #004357;
 }
 .navigation-drawer > .list .list__tile--active .list__tile__title {
   color: #e5ecee;

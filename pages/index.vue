@@ -13,7 +13,7 @@
     </v-layout>
     <v-layout row wrap>
       <v-flex xs4 v-for="section in sections" :key="section.id">
-        <v-card color="cyan accent-5">
+        <v-card>
           <v-card-title style="text-align: center;" class="headline">{{section.name}}</v-card-title>
           <v-card-text>
             <p>{{section.description}}</p>

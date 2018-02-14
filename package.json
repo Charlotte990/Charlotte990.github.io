@@ -13,12 +13,14 @@
   },
   "dependencies": {
     "@nuxtjs/font-awesome": "^1.0.3",
-    "nuxt": "^1.0.0",
+    "aos": "^2.2.0",
+    "nuxt": "^1.0.0-rc9",
     "push-dir": "^0.4.1",
-    "vuetify": "^0.17.4"
+    "vuetify": "1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",

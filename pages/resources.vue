@@ -8,9 +8,9 @@
         </h2>
       </v-flex>
     </v-layout>
-    <v-layout>
+    <v-layout xs12 row wrap>
       <v-tabs fixed icons centered>
-        <v-tabs-bar grow dark class="newPurple">
+        <v-tabs-bar grow class="newPurple">
           <v-tabs-slider color="yellow accent-5"></v-tabs-slider>
           <v-tabs-item 
             v-for="item in items"
@@ -27,7 +27,7 @@
             :id="'tab-' + item.id"
           >
           <v-card flat>
-          <v-layout class= "newPurpleTwo">
+          <v-layout xs12 class= "newPurpleTwo">
             <v-flex xs6>
               <v-card-text
               >
