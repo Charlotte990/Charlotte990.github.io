@@ -26,13 +26,18 @@
             <v-layout xs12 row wrap>
               <v-flex xs6>
                 <v-card
+                target= '_blank'
                 class="text-xs-center"
                 tile
                 flat
                 color="info"
                 >
-                <v-card-text>{{ item.site }}</v-card-text>
-              </v-card>
+                  <v-card-text>
+                    <a class="white--text" :href="item.to" target="_blank">
+                      {{ item.to }}
+                    </a>
+                  </v-card-text>
+                </v-card>
               </v-flex>
               <v-flex>
                 <v-card
@@ -56,9 +61,9 @@
     data () {
       return {
         items: [
-          {id: 1, title: "Python", site: 'https://www.python.org/', other: "CodeWars, Codecademy", icon: 'fa-bolt'},
-          {id: 2, title: "GoLang", site: "https://golang.org/", other: "CodeSchool, GoLang Playground", icon: 'fa-google'},
-          {id: 3, title: "VueJS", site: "https://vuejs.org/", other: "Vue", icon: 'fa-chevron-down'}
+          {id: 1, title: "Python", to: 'https://www.python.org/', other: "CodeWars, Codecademy", icon: 'fa-bolt'},
+          {id: 2, title: "GoLang", to: "https://golang.org/", other: "CodeSchool, GoLang Playground", icon: 'fa-google'},
+          {id: 3, title: "VueJS", to: "https://vuejs.org/", other: "Vue", icon: 'fa-chevron-down'}
         ]
       }
     }
