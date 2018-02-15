@@ -6,7 +6,7 @@
           <v-card-text>
             <img 
             @click="dothis"
-            src="/colorlogobigger.png" alt="Vuetify.js" class="my-4" width="350px"/>
+            src="/colorlogobigger.png" alt="Vuetify.js" class="my-4 myimg" width="300px"/>
           </v-card-text>
         </v-card>
       </v-flex>
@@ -46,3 +46,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.myimg {
+  max-width: 100%
+}
+</style>
