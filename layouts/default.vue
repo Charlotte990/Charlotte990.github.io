@@ -80,6 +80,9 @@
 </script>
 
 <style>
+.application.theme--dark {
+  background-color: #FFF;
+}
 .theme--dark .navigation-drawer {
   background-color: #004357;
 }
