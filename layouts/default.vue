@@ -1,6 +1,7 @@
 <template>
-  <v-app dark>
+  <v-app light>
     <v-toolbar
+      dark
       fixed 
       app
       color="primary"
@@ -19,11 +20,12 @@
         </v-btn>
     </v-toolbar>
     <v-navigation-drawer
+      class="primary"
+      dark
       temporary
       app
       clipped
       right
-      fixed
       v-model="drawer"
     >
       <v-list>
@@ -80,12 +82,7 @@
 </script>
 
 <style>
-.application.theme--dark {
-  background-color: #FFF;
-}
-.theme--dark .navigation-drawer {
-  background-color: #004357;
-}
+
 .navigation-drawer > .list .list__tile--active .list__tile__title {
   color: #e5ecee;
     font-size: large;

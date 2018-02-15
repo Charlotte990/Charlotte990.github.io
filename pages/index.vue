@@ -35,7 +35,7 @@ export default {
       sections: [
         {id: 1, name: 'Portfolio', img: 'http://thecatapi.com/api/images/get?format=src&type=gif', description: "Lalalalalla", link: '/portfolio', button: 'FUN'},
         {id: 2, name: 'Resources', img: 'v.png', description: "Nanananana", link: '/resources', button: 'WHO KNOWS'},
-        {id: 3, name: 'Also Resources', img: 'http://thecatapi.com/api/images/get?format=src&type=gif', description: "nananananamamamam", link: '/resources', button: 'HELLO.'}
+        {id: 3, name: 'Scroll Practice', img: 'http://thecatapi.com/api/images/get?format=src&type=gif', description: "nananananamamamam", link: '/scroll', button: 'HELLO.'}
       ]
   }),
   methods: {

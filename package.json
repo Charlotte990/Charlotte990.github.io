@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxtjs/font-awesome": "^1.0.3",
+    "aos": "^2.2.0",
     "nuxt": "^1.0.0-rc9",
     "push-dir": "^0.4.1",
     "vuetify": "1.0.0"
