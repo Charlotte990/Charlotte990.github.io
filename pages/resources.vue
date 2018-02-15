@@ -1,53 +1,54 @@
 <template>
   <v-container>
-    <v-layout row wrap>
+    <v-layout xs12>
       <v-flex xs12 align-center text-md-center>
         <img src="/colorlogotransmall.png" alt="Vuetify.js" class="mb-5">
-        <h2 class="newPurple">
-          LANGUAGES
-        </h2>
+        <h2 class="newPurple">LANGUAGES & RESOURCES</h2>
       </v-flex>
-    </v-layout>
+    </v-layout>  
     <v-layout xs12 row wrap>
-      <v-tabs fixed icons centered>
-        <v-tabs-bar grow class="newPurple">
-          <v-tabs-slider color="yellow accent-5"></v-tabs-slider>
-          <v-tabs-item 
-            v-for="item in items"
+      <v-flex>
+        <v-tabs icons-and-text centered dark color="warning">
+          <v-tabs-slider color="yellow"></v-tabs-slider>
+          <v-tab 
+            v-for="item in items" 
             :key="item.id"
-            :href="'#tab-' + item.id" >
-            <v-icon>{{item.icon}}</v-icon>
+            :href="'#tab-' + item.id"
+            >
             {{item.title}}
-          </v-tabs-item>
-        </v-tabs-bar>
-        <v-tabs-items>
-          <v-tabs-content
+            <v-icon>{{item.icon}}</v-icon>
+          </v-tab>
+          <v-tab-item
             v-for="item in items"
             :key="item.id"
             :id="'tab-' + item.id"
           >
-          <v-card flat>
-          <v-layout xs12 class= "newPurpleTwo">
-            <v-flex xs6>
-              <v-card-text
-              >
-                {{ item.text }}
-              </v-card-text>
-            </v-flex>
-            <v-flex class="text-md-center">
-              <v-card-text>
-                <v-icon>
-                  {{item.icon}}
-                </v-icon>
-              </v-card-text>
-            </v-flex>
-          </v-layout>
-          </v-card>
-          </v-tabs-content>
-        </v-tabs-items>
-      </v-tabs>
+            <v-layout xs12 row wrap>
+              <v-flex xs6>
+                <v-card
+                class="text-xs-center"
+                tile
+                flat
+                color="info"
+                >
+                <v-card-text>{{ item.site }}</v-card-text>
+              </v-card>
+              </v-flex>
+              <v-flex>
+                <v-card
+                class="text-xs-center"
+                tile
+                flat
+                color="info">
+                <v-card-text>{{item.other}}</v-card-text>
+                </v-card>
+              </v-flex>
+            </v-layout>
+          </v-tab-item>
+        </v-tabs>
+      </v-flex>
     </v-layout>
-  </v-container>
+  </v-container>    
 </template>
 
 <script>
@@ -55,8 +56,9 @@
     data () {
       return {
         items: [
-          {id: 1, title: "Python", text: 'https://www.python.org/', icon: 'fa-bolt'},
-          {id: 2, title: "GoLang", text: "https://golang.org/", icon: 'fa-google'}
+          {id: 1, title: "Python", site: 'https://www.python.org/', other: "CodeWars, Codecademy", icon: 'fa-bolt'},
+          {id: 2, title: "GoLang", site: "https://golang.org/", other: "CodeSchool, GoLang Playground", icon: 'fa-google'},
+          {id: 3, title: "VueJS", site: "https://vuejs.org/", other: "Vue", icon: 'fa-chevron-down'}
         ]
       }
     }
@@ -64,6 +66,7 @@
 </script>
 
 <style>
+
 .newYellow {
   background-color: #435600;
 }

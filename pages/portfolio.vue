@@ -3,7 +3,7 @@
     <v-layout>
       <v-flex text-xs-center>
         <img src="/colorlogotransmall.png" alt="Vuetify.js" class="mb-5">
-        <h2 class="newPurple">PORTFOLIO</h2>
+        <h2 class="primary">PORTFOLIO</h2>
           <v-layout row wrap>
             <v-flex xs6 v-for="item in items" :key="item.id">
               <v-card>
@@ -40,15 +40,3 @@
     }
   }
 </script>
-
-<style>
-.newYellow {
-  background-color: #435600;
-}
-.newPurple {
-  background-color: #560043;
-}
-.newPurpleTwo {
-  background-color: #884c7b;
-}
-</style>
