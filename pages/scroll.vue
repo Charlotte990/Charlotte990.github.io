@@ -1,14 +1,14 @@
 <template>
 <v-flex color="red">
-  <div style="text-align: center;"><img src="download.jpeg" height="200px"/></div>
-  <div style="text-align: center;" data-aos="zoom-in"><img src="heartsblack.gif" height="200px"/></div>
-  <div style="text-align: center;" data-aos="zoom-in"><img src="planet.gif" height="200px"/></div>
-  <div style="text-align: center;" data-aos="zoom-in"><img src="heartsblack.gif" height="200px"/></div>
-  <div style="text-align: center;" data-aos="zoom-in"><img src="planet.gif" height="200px"/></div>
-  <div style="text-align: center;" data-aos="zoom-in"><img src="heartsblack.gif" height="200px"/></div>
-  <div style="text-align: center;" data-aos="zoom-in"><img src="planet.gif" height="200px"/></div>
-  <div style="text-align: center;" data-aos="zoom-in"><img src="heartsblack.gif" height="200px"/></div>
-  <div style="text-align: center;" data-aos="zoom-in"><img src="planet.gif" height="200px"/></div>
+  <div style="text-align: center;"><img src="/download.jpeg" height="200px"/></div>
+  <div style="text-align: center;" data-aos="zoom-in"><img src="/heartsblack.gif" height="200px"/></div>
+  <div style="text-align: center;" data-aos="zoom-in"><img src="/planet.gif" height="200px"/></div>
+  <div style="text-align: center;" data-aos="zoom-in"><img src="/heartsblack.gif" height="200px"/></div>
+  <div style="text-align: center;" data-aos="zoom-in"><img src="/planet.gif" height="200px"/></div>
+  <div style="text-align: center;" data-aos="zoom-in"><img src="/heartsblack.gif" height="200px"/></div>
+  <div style="text-align: center;" data-aos="zoom-in"><img src="/planet.gif" height="200px"/></div>
+  <div style="text-align: center;" data-aos="zoom-in"><img src="/heartsblack.gif" height="200px"/></div>
+  <div style="text-align: center;" data-aos="zoom-in"><img src="/planet.gif" height="200px"/></div>
 
 
 </v-flex>
