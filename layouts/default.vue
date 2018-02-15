@@ -72,7 +72,8 @@
         drawer: false,
         pages: [
           { id: 1, icon: 'apps', title: 'Portfolio', to: '/portfolio' },
-          { id: 2, icon: 'bubble_chart', title: 'Resources', to: '/resources' }
+          { id: 2, icon: 'bubble_chart', title: 'Resources', to: '/resources' },
+          { id: 2, icon: 'swap_vert', title: 'Scroll Practice', to: '/scroll' }
         ],
         rightDrawer: true,
         clipped: true
