@@ -26,7 +26,6 @@
             <v-layout xs12 row wrap>
               <v-flex xs6>
                 <v-card
-                target= '_blank'
                 class="text-xs-center"
                 tile
                 flat
