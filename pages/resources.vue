@@ -7,7 +7,7 @@
       </v-flex>
     </v-layout>  
     <v-layout xs12 row wrap>
-      <v-flex>
+      <v-flex xs12>
         <v-tabs icons-and-text centered dark color="warning">
           <v-tabs-slider color="yellow"></v-tabs-slider>
           <v-tab 

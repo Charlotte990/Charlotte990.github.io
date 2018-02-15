@@ -5,7 +5,7 @@
         <img src="/colorlogotransmall.png" alt="Vuetify.js" class="mb-5">
         <h2 class="primary">PORTFOLIO</h2>
           <v-layout row wrap>
-            <v-flex xs6 v-for="item in items" :key="item.id">
+            <v-flex md6 xs12 v-for="item in items" :key="item.id">
               <v-card>
                 <v-card-media v-bind:src="item.src" height="400px">
                 </v-card-media>
