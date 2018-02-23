@@ -14,8 +14,8 @@
     <v-layout row wrap>
       <v-flex md4 xs12 v-for="section in sections" :key="section.id">
         <v-card color="primary">
-          <v-card-title style="text-align: center;" class="headline">{{section.name}}</v-card-title>
-          <v-card-text>
+          <v-card-title style="text-align: center;" class="headline white--text">{{section.name}}</v-card-title>
+          <v-card-text class="white--text">
             <p>{{section.description}}</p>
             <a :href='section.link' target='_self'>
               <img 

@@ -3,7 +3,7 @@
     <v-layout xs12>
       <v-flex xs12 align-center text-md-center>
         <img src="/colorlogotransmall.png" alt="Vuetify.js" class="mb-5">
-        <h2 class="newPurple">LANGUAGES & RESOURCES</h2>
+        <h2 class="newPurple white--text">LANGUAGES & RESOURCES</h2>
       </v-flex>
     </v-layout>  
     <v-layout xs12 row wrap>
@@ -44,7 +44,7 @@
                 tile
                 flat
                 color="info">
-                <v-card-text>{{item.other}}</v-card-text>
+                <v-card-text class="white--text">{{item.other}}</v-card-text>
                 </v-card>
               </v-flex>
             </v-layout>

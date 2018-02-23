@@ -10,7 +10,7 @@
                 <v-card-media v-bind:src="item.src" height="400px">
                 </v-card-media>
                 <v-card-title primary-title>
-                    <v-btn flat color="white" :href="item.url" target='_blank'>{{item.siteName}}</v-btn>
+                    <v-btn flat :href="item.url" target='_blank'>{{item.siteName}}</v-btn>
                     <v-spacer></v-spacer>
                     <div>{{item.description}}</div>
                 </v-card-title>
